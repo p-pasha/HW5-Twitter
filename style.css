@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  display: block;
+  width: 20%;
+  margin: 0 auto;
+  background-color: aliceblue;
+}
+.card-container {
+  padding: 20px;
+  display: block;
+  border: 1px solid #ccc!important;
+  border-radius: 5px;
+}
+.card-header {
+  display: flex;
+  padding: 5px 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-name {
+  display: block;
+  width: 100%;
+  font-weight: 700;
+  font-size: 20px;    
+  text-decoration: none;
+  color: #1a5cecbe;
+}
+.card-email {
+  font-style: italic;
+  padding-bottom: 10px;
+}
+.btn-del {
+  display: block;
+  cursor: pointer;
+  background-color: lightsteelblue;
+  border: 1px solid #ccc!important;
+  border-radius: 5px; 
+}
+.card-title {
+  padding-bottom: 10px;
+}
